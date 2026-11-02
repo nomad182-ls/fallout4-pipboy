@@ -1,0 +1,19 @@
+FALLOUT 4 — PIP-BOY COMPANION (PWA)
+
+CONTEÚDO
+index.html, styles.css, app.js, manifest.webmanifest, sw.js e pasta icons.
+
+INSTALAÇÃO NO ANDROID
+1. Publique a pasta inteira em uma hospedagem HTTPS estática (por exemplo GitHub Pages, Netlify ou Cloudflare Pages).
+2. Abra o endereço publicado no Chrome para Android.
+3. Toque em Instalar app (ou no menu ⋮ > Adicionar à tela inicial / Instalar aplicativo).
+4. Após a primeira visita online, o service worker permite abrir o aplicativo offline.
+
+TESTE NO COMPUTADOR
+Na pasta do app: python -m http.server 8000
+Abra http://localhost:8000
+
+IMPORTANTE
+Abrir index.html diretamente como file:// pode mostrar a interface, mas não habilita a instalação PWA nem o cache offline. O progresso é salvo no navegador (localStorage). Use a aba Dados para exportar backup JSON e importar em outro dispositivo.
+
+Este é um guia não oficial, feito para Fallout 4 jogo base, sem DLCs. O jogo não tem um nível final fixo: a progressão proposta cobre 1–50 e pode continuar depois.
